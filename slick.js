@@ -1,9 +1,11 @@
+// blog
+
 $(document).ready(function(){
     $('.blog__list').slick({
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
         prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-solid fa-caret-left' aria-hidden='true'></i></button>",
@@ -26,12 +28,14 @@ $(document).ready(function(){
     });
 });
 
+// futures
+
 $(document).ready(function(){
     $('.fuatures__product-list').slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
         prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa-solid fa-caret-left' aria-hidden='true'></i></button>",
@@ -54,12 +58,14 @@ $(document).ready(function(){
     });
 });
 
+// types
+
 $(document).ready(function(){
     $('.types__list').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
         prevArrow:"<button type='button' class='slick-prev-types pull-left'>prev</button>",
