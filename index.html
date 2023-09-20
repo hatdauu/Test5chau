@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+</head>
+<body>
+    <div id="main">
+        <header class="header grid">
+            <div class="header__container">
+                <div class="header__home">
+                    <div class="header__logo">
+                        <h3>fashion</h3>
+                        <p>tagline here</p>
+                    </div>
+                    <ul class="header__options">
+                        <li class="header__options-item">
+                            <a href="#">home</a>
+                        </li>
+                        <li class="header__options-item">
+                            <a href="#">shop</a>
+                        </li>
+                        <li class="header__options-item">
+                            <a href="#">women</a>
+                        </li>
+                        <li class="header__options-item">
+                            <a href="#">men</a>
+                        </li>
+                        <li class="header__options-item">
+                            <a href="#">find stores</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__menu">
+                    <a href="#" class="header__icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+
+                    <label for="header__search-input" href="#" class="header__icon header__navbar-icon-search">
+                        <i class="header__navbar-icon-search-icon fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input type="checkbox" name="" class="search-input" id="header__search-input">
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Search...">
+                    </div>
+                    
+                    <!-- menu -->
+                    <label for="header__menu-input" class="header__icon header__navbar-menu-icon">
+                            <i class="header__navbar-menu-icon fa-solid fa-bars"></i>
+                    </label>
+
+                    <div class="header__menu-control">
+                        <input type="checkbox" name="" class="menu-input" id="header__menu-input">
+
+                        <label for="header__menu-input" class="header__menu-overlay"></label>
+
+                        <div class="header__menu">
+                            <div class="header__menu-navigation">
+                                <label for="header__menu-input" class="header__menu-navigation-close"><i class="fa-solid fa-xmark"></i></label>
+                                
+                                <ul class="header__menu-navigation-list">
+                                    <li class="header__menu-navigation-item active">
+                                        <a href="#banner">home</a>
+                                    </li>
+                                    <li class="header__menu-navigation-item">
+                                        <a href="#category">shop</a>
+                                    </li>
+                                    <li class="header__menu-navigation-item">
+                                        <a href="#category">women</a>
+                                    </li>
+                                    <li class="header__menu-navigation-item">
+                                        <a href="#feature">men</a>
+                                    </li>
+                                    <li class="header__menu-navigation-item">
+                                        <a href="#blog">find stores</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="body">
+            <div class="banner">
+                <div class="banner__options">
+                    <a class="banner__options-icon" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="banner__options-icon" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="banner__options-icon" href="#">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a class="banner__options-icon" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <p>follow us</p>
+                </div>
+                <div class="banner__screen">
+                    <div class="banner__info">
+                        <h1 class="banner__info-title">summer <br> collection</h1>
+                        <div class="banner__info-sub-title">
+                            <h3>01</h3>
+                            <p>men's wear</p>
+                        </div>
+                        <div class="banner__info-interact">
+                            <a href="#" class="banner__info-icon active">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                            <a href="#" class="banner__info-icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                            <a href="#" class="banner__info-icon">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </a>
+                        </div>
+                        <div class="banner__info-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus red farrmetun niph vel aliquet massa. Etiam in magna id resus lacilia luctus eget eu est
+                        </div>
+                        <button class="banner__info-btn btn">Shop now</button>
+                    </div>
+                    <div class="banner__sale">
+                        <div class="banner__sale-img background-image"></div>
+                        <div class="banner__sale-info">
+                            <h1 class="banner__sale-title">Special Offer <br> Of The Month</h1>
+                            <p class="banner__sale-sub-title">Black long sleeve</p>
+                            <div class="banner__sale-price">
+                                <div class="banner__sale-price-wrap">
+                                    <h3>$105</h3>
+                                    <h1>$65</h1>
+                                </div>
+                                <button class="banner__sale-btn btn">shop now</button>
+                            </div>
+                            <div class="banner__sale-time">
+                                <div class="banner__sale-time-e">
+                                    <h1>09</h1>
+                                    <p class="sale-time-dot">....</p>
+                                    <p>hour</p>
+                                </div>
+                                <div class="banner__sale-time-e">
+                                    <h1>56</h1>
+                                    <p class="sale-time-dot">....</p>
+                                    <p>minutes</p>
+                                </div>
+                                <div class="banner__sale-time-e">
+                                    <h1>11</h1>
+                                    <p class="sale-time-dot">....</p>
+                                    <p>second</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-banner wide">
+                <div class="sub-banner__introduce">                     
+                    <ul class="sub-banner__list row">
+                        <li class="sub-banner__item">
+                            <a href="#">All</a>
+                        </li>
+                        <li class="sub-banner__item">
+                            <a href="#">spring-summer</a>
+                        </li>
+                        <li class="sub-banner__item">
+                            <a href="#">sweatshirt</a>
+                        </li>
+                        <li class="sub-banner__item">
+                            <a href="#">sneakers</a>
+                        </li>
+                        <li class="sub-banner__item">
+                            <a href="#">gadgets</a>
+                        </li>
+                        <li class="sub-banner__item">
+                            <a href="#">outdoor</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sub-banner-block">
+                    <div class="row">
+                        <div class="sub-banner__wrap col l-3 m-3 c-5">
+                            <div class="sub-banner__wrap-item">
+                                <div class="sub-banner__wrap-item-one background-image" style="background-image: url('./assets/img/sub-banner/Shape.jpg');">
+                                    <h1>BUY 2 GET <br> UP 50% OFF</h1>
+                                </div>
+                            </div>
+                            <div class="sub-banner__wrap-item">
+                                <div class="sub-banner__wrap-item-two background-image" style="background-image: url('./assets/img/sub-banner/Shape1.jpg');"></div>
+                            </div>
+                        </div>
+                        <div class="sub-banner__wrap col l-5 m-5 c-7">
+                            <div class="sub-banner__wrap-item-three background-image" style="background-image: url(./assets/img/sub-banner/Shape2.jpg);">
+                                <div class="sub-banner__wrap-three-info">
+                                    <p>Winter Jacket</p>
+                                    <h1>VINTAGE LOOK <br> FOR WOMEN</h1>
+                                    <button class="banner__info-btn btn">Shop now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub-banner__wrap sub-banner__wrap-size-mobile col l-4 m-4">
+                            <div class="sub-banner__wrap-item">
+                                <div class="sub-banner__wrap-item-four background-image" style="background-image: url('./assets/img/sub-banner/Image.jpg');">
+                                    <div class="sub-banner__wrap-four-info">
+                                        <p>Winter Jacket</p>
+                                        <h1>FASHION <br> FOR MEN</h1>
+                                        <button class="banner__info-btn btn">Shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-banner__wrap-item">
+                                <div class="sub-banner__wrap-item-five background-image" style="background-image: url('./assets/img/sub-banner/Shape3.jpg');">
+                                    <h3>40% off on sunglasses</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-banner__wrap-item-six" style="background-image: url(./assets/img/sub-banner/Shape4.jpg);">
+                       <div class="sub-banner__wrap-six-info">
+                            <h1>WE OFFER BRAND NEW STYLES</h1>
+                            <p>SIGN UP NOW AND GET 50% OFF</p>
+                            <button class="btn btn-white-l">SEE FULL COLLECTION</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="types wide">
+                <h1 class="types__title">Product Types</h1>
+                <p class="types__desc"> up to 30% discount </p>
+                <div class="types__container">
+                    <ul class="types__list row ">
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Image.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop men</button>
+                            </div>
+                        </li>
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Shape.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop women</button>
+                            </div>
+                        </li>
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Rechteck\ 1\ copy\ 3.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop kids</button>
+                            </div>
+                        </li>
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Image.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop men</button>
+                            </div>
+                        </li>
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Shape.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop women</button>
+                            </div>
+                        </li>
+                        <li class="col l-4 m-4">
+                            <div class="types__list-item background-image " style="background-image: url(./assets/img/types/Rechteck\ 1\ copy\ 3.jpg);">
+                                <button class="types__list-item-btn btn-size-l btn">Shop kids</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fuatures wide">
+                <h1 class="fuatures__title"> featured products</h1>
+                <ul class="fuatures__list row">
+                    <li class="fuatures__item">
+                        <a href="#">All</a>
+                    </li>
+                    <li class="fuatures__item">
+                        <a href="#">spring-summer</a>
+                    </li>
+                    <li class="fuatures__item">
+                        <a href="#">sweatshirt</a>
+                    </li>
+                    <li class="fuatures__item">
+                        <a href="#">sneakers</a>
+                    </li>
+                    <li class="fuatures__item">
+                        <a href="#">gadgets</a>
+                    </li>
+                    <li class="fuatures__item">
+                        <a href="#">outdoor</a>
+                    </li>
+                </ul>
+                <ul class="fuatures__product-list row">
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image" style="background-image: url(./assets/img/fuatures/Shape.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image"  style="background-image: url(./assets/img/fuatures/Image.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image" style="background-image: url(./assets/img/fuatures/Image1.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image" style="background-image: url(./assets/img/fuatures/Shape1.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image" style="background-image: url(./assets/img/fuatures/Shape.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fuatures__product-item col l-3 m-3">
+                        <div class="fuatures__product-item-bgr background-image" style="background-image: url(./assets/img/fuatures/Image1.jpg);"></div>
+                        <div class="fuatures__product-item-info">
+                            <h3>Ted Baker Womens Light</h3>
+                            <p>Gucci</p>
+                            <div class="fuatures__product-info-price">
+                                <span class="fuatures__product-price-old">$70.00</span>
+                                <span class="fuatures__product-price-new">$120.00</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="futures__btn">Shop more</button>
+                <div class="fuatures__subcribe background-image background-image-subcribe l-12" style="background-image: url(./assets/img/fuatures/Subcribe.jpg);">
+                    <div class="fuatures__subcribe-inner">
+                        <h1>subscribe to our newsletter </h1>
+                        <h3>SIGN UP NOW AND GET 75% OFF</h3>
+                        <button>SIGN UP NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs wide">
+                <h1 class="blogs__title"> our blogs & news </h1>
+                <div class="blog__list row">
+                    <div class="col l-6">
+                        <div class="blog__list-item background-image" style="background-image: url(./assets/img/blogs/Shape.jpg);">
+                            <div class="blog__list-item-inner">
+                                <h2>The 15 Secrets About Fashion People</h2>
+                                <p>January 12, 2020 by admin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6">
+                        <div class="blog__list-item background-image" style="background-image: url(./assets/img/blogs/Shape1.jpg);">
+                            <div class="blog__list-item-inner">
+                                <h2>The 15 Secrets About Fashion People</h2>
+                                <p>January 12, 2020 by admin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6">
+                        <div class="blog__list-item background-image" style="background-image: url(./assets/img/blogs/Shape.jpg);">
+                            <div class="blog__list-item-inner">
+                                <h2>The 15 Secrets About Fashion People</h2>
+                                <p>January 12, 2020 by admin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6">
+                        <div class="blog__list-item background-image" style="background-image: url(./assets/img/blogs/Shape1.jpg);">
+                            <div class="blog__list-item-inner">
+                                <h2>The 15 Secrets About Fashion People</h2>
+                                <p>January 12, 2020 by admin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogs_info-wrap grid">
+                    <ul class="blogs_info row">
+                        <li class="blogs__info-item col l-2 m-3 c-6">
+                            <h2 class="blogs__info-title">Information</h2>
+                            <ul class="blogs__info-list">
+                                <li class="blogs__info-list-item">
+                                    <a href="#">The brand</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Local stores</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Customer service</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#"> Privacy & cookies</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Site map</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="blogs__info-item col l-2 m-3 c-6">
+                            <h2 class="blogs__info-title">My profile</h2>
+                            <ul class="blogs__info-list">
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Getting Started</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">FAQs</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Buying Guide</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Order Returns</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Affiliate Program</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="blogs__info-item col l-2 m-3 c-6">
+                            <h2 class="blogs__info-title">Your account</h2>
+                            <ul class="blogs__info-list">
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Shipping & returns</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Secure shopping</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Testimonials</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Award winning</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Ethical trading</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="blogs__info-item col l-2 m-3 c-6">
+                            <h2 class="blogs__info-title">Lookbook</h2>
+                            <ul class="blogs__info-list">
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Getting Started</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">FAQs</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Buying Guide</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Order Returns</a>
+                                </li>
+                                <li class="blogs__info-list-item">
+                                    <a href="#">Affiliate Program</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="blogs__info-item-contact col ">
+                            <h2 class="blogs__info-title">contact details</h2>
+                            <div class="blogs__contact-info">
+                                <div class="blogs__contact-info-phone">
+                                    <h3>Telephone: 
+                                        <a href="tel:0123-456-789"> 0123-456-789</a>
+                                    </h3>
+                                </div>
+                                <div class="blogs__contact-info-phone blogs__contact-info-email">
+                                    <h3>Email: 
+                                        <a href="mailto:free@psdfreebies.com"> free@psdfreebies.com</a>
+                                    </h3>
+                                </div>
+                                <div class="blogs__contact-info-phone">
+                                    <h3>Head Office: 
+                                        <span> 245 Yellow House,  Main Street, London. 456789</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer grid">
+            <div class="footer__container">
+                <p>© Copyright e-commerce  1.0. 2022 Designed by Psdfreebies.com</p>
+                <div class="footer__container-trademark">
+                    <h1>Fashion</h1>
+                    <h3>Tagline here</h3>
+                </div>
+            </div>
+        </footer>
+
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+
+        <script src="slick.js"></script>
+    </div>
+</body>
+</html>
